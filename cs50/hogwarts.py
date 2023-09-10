@@ -5,4 +5,5 @@ students  = {
     "Draco": "Slytherin"
 }
 
-print(students["Harry"])
+for student in students:
+    print(student, students[student], sep=",")
